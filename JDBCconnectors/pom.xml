@@ -1,0 +1,21 @@
+<project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+ <properties>
+  <Utilities-groupId>vozmediano</Utilities-groupId>
+ </properties>
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>vozmediano</groupId>
+  <artifactId>JDBCconnectors</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>JDBCconnectors</name>
+  <dependencies>
+  <dependency>
+	<groupId>org.xerial</groupId>
+	<artifactId>sqlite-jdbc</artifactId>
+	<version>3.42.0.0</version>
+</dependency>
+   <groupId>${Utilities-groupId}</groupId>
+  <artifactId>Utilities</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  </dependencies>
+</project>

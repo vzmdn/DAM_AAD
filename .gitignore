@@ -63,3 +63,6 @@ spring.log
 
 # MongoDB
 data/
+
+
+.vscode
